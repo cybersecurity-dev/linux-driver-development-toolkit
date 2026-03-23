@@ -8,6 +8,7 @@
 # **`LDDT`** | Linux Driver Development Toolkit
 </div>
 
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://elixir.bootlin.com/linux/v6.17/source)
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)]()
 [![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white)]()
 
