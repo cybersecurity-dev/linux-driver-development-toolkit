@@ -5,7 +5,7 @@
         </a>
     </p>
 
-# **`LDDT`** | Linux Driver Development Toolkit
+# **`LDDT`** | Linux [Driver](https://github.com/cybersecurity-dev/awesome-linux-driver-development-resource) Development [Toolkit](https://github.com/cybersecurity-dev/awesome-linux-driver-development)
 </div>
 
 [![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://elixir.bootlin.com/linux/v6.17/source)
@@ -15,18 +15,64 @@
 <p align="center">
     <a href="https://github.com/cybersecurity-dev/"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/github.svg" alt="GitHub"></a>
     &nbsp;
-    <a href="https://www.youtube.com/@CyberThreatDefence"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/youtube.svg" alt="YouTube"></a>
+    <a href="https://www.youtube.com/@CyberThreatDefense"><img height="25" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/youtube.svg" alt="YouTube"></a>
     &nbsp;
     <a href="https://cyberthreatdefence.com/my_awesome_lists"><img height="20" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/blog.svg" alt="My Awesome Lists"></a>
     <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
 </p>
 
+```mermaid
+mindmap
+  root((Linux Driver Development))
 
+    🔵 Fundamentals
+      C Programming
+      Data Structures
+      Computer Architecture
+      Operating Systems
+
+    🟣 Kernel Basics
+      Kernel Source Tree
+      Kbuild
+      Kconfig
+      System Calls
+
+    🔴 Driver Types
+      Character Drivers
+      Block Drivers
+      Network Drivers
+      USB Drivers
+      PCI Drivers
+
+    🟡 Hardware
+      Interrupts
+      DMA
+      MMIO
+      Device Tree
+
+    🟠 Debugging
+      printk
+      dmesg
+      ftrace
+      kgdb
+      perf
+
+    🟢 Advanced
+      Power Management
+      Security
+      eBPF
+
+    ⚫ Contribution
+      Git
+      checkpatch.pl
+      Patch Submission
+      Mailing Lists
+```
 
 ##
 
-### My Other Awesome Lists
-You can access the my other awesome lists [here](https://cyberthreatdefence.com/my_awesome_lists)
+### My Awesome Lists
+You can access the my awesome lists [here](https://cyberthreatdefence.com/my_awesome_lists)
 
 ### Contributing
 [Contributions of any kind welcome, just follow the guidelines](contributing.md)!
