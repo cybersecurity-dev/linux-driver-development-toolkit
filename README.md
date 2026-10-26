@@ -8,7 +8,7 @@
 ```mermaid
 ishikawa-beta
     Competent Linux Driver Toolkit User
-        Phase 1 - Source Environment
+        Phase 1  - <br/>Source Environment
             Obtain kernel source
             Select target branch
             Install development packages
@@ -16,7 +16,7 @@ ishikawa-beta
             Configure source repository
             Record target kernel version
 
-        Phase 2 - Toolchain
+        Phase 2  - <br/>Toolchain
             Install GCC
             Install Clang
             Configure cross-compiler
@@ -24,7 +24,7 @@ ishikawa-beta
             Verify compiler compatibility
             Inspect generated tool versions
 
-        Phase 3 - Kernel Configuration
+        Phase 3  - <br/>Kernel Configuration
             Use defconfig
             Use menuconfig
             Enable driver dependencies
@@ -32,7 +32,7 @@ ishikawa-beta
             Enable test frameworks
             Preserve configuration file
 
-        Phase 4 - Build System
+        Phase 4  - <br/>Build System
             Create Kconfig entry
             Create Kbuild rules
             Configure external module Makefile
@@ -40,7 +40,7 @@ ishikawa-beta
             Run MODPOST
             Generate kernel module
 
-        Phase 5 - Style and Static Checks
+        Phase 5  - <br/>Style and Static Checks
             Run checkpatch
             Format selected code
             Run Sparse
@@ -48,7 +48,7 @@ ishikawa-beta
             Run Coccinelle
             Review compiler warnings
 
-        Phase 6 - Binary Inspection
+        Phase 6  - <br/>Binary Inspection
             Inspect module metadata
             Inspect symbol table
             Inspect module dependencies
@@ -56,7 +56,7 @@ ishikawa-beta
             Check undefined symbols
             Compare target architecture
 
-        Phase 7 - Deployment
+        Phase 7  - <br/>Deployment
             Install module
             Run depmod
             Load with modprobe
@@ -64,7 +64,7 @@ ishikawa-beta
             Inspect device binding
             Unload module safely
 
-        Phase 8 - Device Observation
+        Phase 8  - <br/>Device Observation
             Inspect sysfs
             Inspect procfs
             Inspect debugfs
@@ -72,7 +72,7 @@ ishikawa-beta
             Inspect udev events
             Verify permissions
 
-        Phase 9 - Logging
+        Phase 9  - <br/>Logging
             Use printk and dev logging
             Select log levels
             Read dmesg
@@ -80,7 +80,7 @@ ishikawa-beta
             Add request identifiers
             Preserve timestamps
 
-        Phase 10 - Tracing
+        Phase 10  - <br/>Tracing
             Use dynamic debug
             Configure ftrace
             Filter functions
@@ -88,7 +88,7 @@ ishikawa-beta
             Capture perf events
             Correlate trace evidence
 
-        Phase 11 - Debugging
+        Phase 11  - <br/>Debugging
             Build symbols
             Configure GDB helpers
             Configure KGDB
@@ -96,7 +96,7 @@ ishikawa-beta
             Inspect crash dumps
             Analyze stack traces
 
-        Phase 12 - Testing
+        Phase 12  - <br/>Testing
             Write KUnit tests
             Run kselftest
             Build test modules
@@ -104,7 +104,7 @@ ishikawa-beta
             Run stress tests
             Test error paths
 
-        Phase 13 - Dynamic Verification
+        Phase 13  - <br/>Dynamic Verification
             Enable KASAN
             Enable KCSAN
             Enable UBSAN
@@ -112,7 +112,7 @@ ishikawa-beta
             Use fault injection
             Collect coverage
 
-        Phase 14 - Delivery
+        Phase 14  - <br/>Delivery
             Check kernel compatibility
             Sign module
             Prepare DKMS package
