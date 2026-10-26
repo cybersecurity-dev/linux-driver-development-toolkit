@@ -1,9 +1,125 @@
 <div align="center">
     <p align="center">
         <a href="https://github.com/cybersecurity-dev/awesome-linux-driver-development">
-          <img width="8%" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/Tux.svg" />
+          <img width="5%" src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/Tux.svg" />
         </a>
     </p>
+
+```mermaid
+ishikawa-beta
+    Competent Linux Driver Toolkit User
+        Phase 1 - Source Environment
+            Obtain kernel source
+            Select target branch
+            Install development packages
+            Prepare kernel headers
+            Configure source repository
+            Record target kernel version
+
+        Phase 2 - Toolchain
+            Install GCC
+            Install Clang
+            Configure cross-compiler
+            Select architecture
+            Verify compiler compatibility
+            Inspect generated tool versions
+
+        Phase 3 - Kernel Configuration
+            Use defconfig
+            Use menuconfig
+            Enable driver dependencies
+            Enable debug options
+            Enable test frameworks
+            Preserve configuration file
+
+        Phase 4 - Build System
+            Create Kconfig entry
+            Create Kbuild rules
+            Configure external module Makefile
+            Compile object files
+            Run MODPOST
+            Generate kernel module
+
+        Phase 5 - Style and Static Checks
+            Run checkpatch
+            Format selected code
+            Run Sparse
+            Run Smatch
+            Run Coccinelle
+            Review compiler warnings
+
+        Phase 6 - Binary Inspection
+            Inspect module metadata
+            Inspect symbol table
+            Inspect module dependencies
+            Inspect ELF sections
+            Check undefined symbols
+            Compare target architecture
+
+        Phase 7 - Deployment
+            Install module
+            Run depmod
+            Load with modprobe
+            Inspect with lsmod
+            Inspect device binding
+            Unload module safely
+
+        Phase 8 - Device Observation
+            Inspect sysfs
+            Inspect procfs
+            Inspect debugfs
+            Inspect device nodes
+            Inspect udev events
+            Verify permissions
+
+        Phase 9 - Logging
+            Use printk and dev logging
+            Select log levels
+            Read dmesg
+            Read journal logs
+            Add request identifiers
+            Preserve timestamps
+
+        Phase 10 - Tracing
+            Use dynamic debug
+            Configure ftrace
+            Filter functions
+            Enable tracepoints
+            Capture perf events
+            Correlate trace evidence
+
+        Phase 11 - Debugging
+            Build symbols
+            Configure GDB helpers
+            Configure KGDB
+            Use KDB
+            Inspect crash dumps
+            Analyze stack traces
+
+        Phase 12 - Testing
+            Write KUnit tests
+            Run kselftest
+            Build test modules
+            Run functional tests
+            Run stress tests
+            Test error paths
+
+        Phase 13 - Dynamic Verification
+            Enable KASAN
+            Enable KCSAN
+            Enable UBSAN
+            Enable lockdep
+            Use fault injection
+            Collect coverage
+
+        Phase 14 - Delivery
+            Check kernel compatibility
+            Sign module
+            Prepare DKMS package
+            Prepare distribution package
+            Test clean installation
+            Archive source symbols and logs
+```
 
 # **`LDDT`** | Linux [Driver](https://github.com/cybersecurity-dev/awesome-linux-driver-development-resource) Development [Toolkit](https://github.com/cybersecurity-dev/awesome-linux-driver-development)
 </div>
@@ -22,8 +138,72 @@
 </p>
 
 ```mermaid
+treemap-beta
+    "Linux Driver Development Toolkit"
+        "Environment"
+            "Kernel Source": 6
+            "Kernel Headers": 4
+            "GCC and Clang": 6
+            "Cross Toolchains": 5
+            "QEMU and Test Targets": 5
+
+        "Build System"
+            "Kconfig": 5
+            "Kbuild": 6
+            "GNU Make": 4
+            "MODPOST": 4
+            "Module Metadata": 3
+
+        "Static Analysis"
+            "checkpatch": 4
+            "Sparse": 6
+            "Smatch": 5
+            "Coccinelle": 6
+            "Clang Analysis": 5
+
+        "Deployment"
+            "modprobe and insmod": 5
+            "depmod": 3
+            "modinfo": 3
+            "udev": 5
+            "sysfs and procfs": 4
+
+        "Diagnostics"
+            "printk and dmesg": 5
+            "Dynamic Debug": 4
+            "ftrace": 8
+            "Tracepoints": 5
+            "perf": 5
+            "GDB and KGDB": 6
+            "Crash Analysis": 5
+
+        "Verification"
+            "KUnit": 7
+            "kselftest": 5
+            "KASAN": 6
+            "KCSAN": 5
+            "UBSAN": 4
+            "Lockdep": 5
+            "KCOV and gcov": 4
+            "Fault Injection": 4
+
+        "Delivery"
+            "Module Signing": 4
+            "DKMS": 5
+            "Distribution Packaging": 5
+            "Compatibility Testing": 5
+```
+
+
+## 📖 Contents
+- [My Awesome Lists](#my-awesome-lists)
+- [Contributing](#contributing)
+- [Contributors](#contributors)
+
+
+```mermaid
 mindmap
-  root((Linux Driver Development))
+  root((Linux<br/>Driver<br/>Development))
 
     🔵 Fundamentals
       C Programming
